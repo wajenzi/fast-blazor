@@ -194,7 +194,7 @@ To make this work, a link needs to be created between the Design Token component
 
 
 #### Option 3: Using the `<FluentDesignSystemProvider>`
-The third way to customize the design in Blazor is to wrap the entire block you want to manipulate in a `<FluentDesignSystemProvider>`. This special element has a number of properties you can set to configure a subset of the tokens. **Not all tokens are available/supported** and we recommend this to only be used as a fall-back mechanism. The preferred mehod of working with the desgn tokens is to manipulate them from code as described in option 1. 
+The third way to customize the design in Blazor is to wrap the entire block you want to manipulate in a `<FluentDesignSystemProvider>`. This special element has a number of properties you can set to configure a subset of the tokens. **Not all tokens are available/supported** and we recommend this to only be used as a fall-back mechanism. The preferred method of working with the desgn tokens is to manipulate them from code as described in option 1. 
 
 Here's an example of changing the "accent base color" and switching the system into dark mode (in the file `app.razor`):
 
